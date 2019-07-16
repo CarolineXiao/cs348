@@ -3,9 +3,16 @@
   <head>
     <title>Sign In Page</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <script async src="./javascript/index.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script async src="./javascript/signin.js"></script>
   </head>
   <body>
     <h1>Sign In</h1>
+    <div>
+      Username: <input type="text" id = 'username'><br>
+      Password: <input type="text" id = "password"><br>
+      <input type="submit" value="Submit" id='signinSubmit'>
+      <p id='credential'></p>
+    </div>
   </body>
 </html>
