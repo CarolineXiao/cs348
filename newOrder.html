@@ -1,0 +1,22 @@
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Create Order</h1>
+      <link rel="stylesheet" href="styles/create.css" />
+      <p>Please fill in this form to create a new order.</p>
+      <hr>
+  
+      <label for="clientid"><b>ClientID</b></label>
+      <input type="text" placeholder="Enter ClientID" name="ClientID" required>
+
+      <label for="item"><b>Item</b></label>
+      <input type="text" placeholder="Enter Item" name="Item" required>
+  
+      <label for="quantity"><b>Quantity</b></label>
+      <input type="text" placeholder="Enter Quantity" name="Quantity" required>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn" onclick="location.href = 'order.html'">Cancel</button>
+        <button type="submit" class="createbtn">Create</button>
+      </div>
+    </div>
+  </form>
