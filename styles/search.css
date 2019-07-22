@@ -68,10 +68,10 @@ body {
   /* Search Bar */
   .search {
     width: 500px;
-    position: fixed;
+    position: relative;
     display: flex;
-    margin-left: -240px;
-    margin-top: -160px;
+    margin-left: -270px;
+    margin-top: -220px;
   }
 
   .search a:hover {
@@ -115,11 +115,10 @@ body {
   
   /*Resize the wrap to see the search bar change!*/
   .wrap{
-    width: 30%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100px;
+    position: relative;
+    margin-top: 230px;
+    margin-left: 500px;
   }
 
   .round {
@@ -140,8 +139,8 @@ body {
   
   table, th, td {
       position: relative;
-      margin-top: 100px;
-      margin-left: 230px;
+      margin-top: 60px;
+      margin-left: 225px;
       border: 1px solid black;
       border-collapse: collapse;
       text-align: left;

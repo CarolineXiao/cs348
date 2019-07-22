@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Order Page</title>
+    <link rel="stylesheet" href="styles/search.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async src="./javascript/index.js"></script>
+  </head>
+  <body onload="loadTable()">
+    <h1>Client</h1>
+    <div class="sidebar">
+      <a href="index.html"> Home</a>
+      <a href="client.html"> Client</a>
+      <a href="event.html"> Event</a>
+      <a href="supplier.html"> Supplier</a>
+      <a href="supplieditem.html"> Supplied Item</a>
+      <a href="venue.html"> Venue</a>
+      <a href="search.html"> Search</a>
+    </div>
+    
+    <div class="wrap">
+      <div class="search">
+         <input type="text" class="searchTerm" placeholder="Filter">
+         <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+         <a href="newClient.html" class="round"><i class="fa fa-plus" style="font-size:12px"></i></a>
+      </div>
+   </div>
+
+   
+   <div class="table">
+      <table id="order-table" style="width:40%">
+          <tr>
+              <th>ClientID</th>
+              <th>Email</th> 
+              <th>Phone</th>
+              <th>Contact Method</th>
+              <th></th>
+            </tr>
+        </table>
+   </div>
+    
+  </body>
+</html>
