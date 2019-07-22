@@ -1,0 +1,37 @@
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Create Order</h1>
+      <link rel="stylesheet" href="styles/create.css" />
+      <p>Please fill in this form to create a new client.</p>
+      <hr>
+  
+      <label for="clientid"><b>ClientID</b></label>
+      <input type="text" placeholder="Enter ClientID" name="ClientID" required>
+
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter Phone Number" name="Phone" required>
+  
+      <label for="email"><b>Email Address</b></label>
+      <input type="text" placeholder="Enter Email Address" name="Email" required>
+
+      
+      <label for="contact"><b>Contact Method</b></label>
+      <div class="dropdown">
+      <br><select name="Contact Method">
+          <option value="phone">Phone</option>
+          <option value="saab">Email</option>
+      </select>
+      </div>
+
+      <div>
+      <br><label for="clienttype"><b>Client Type</b></label><br>
+      <input type="radio" name="gender" value="male"> Male<br>
+      <input type="radio" name="gender" value="female"> Female<br>
+      </div>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn" onclick="location.href = 'client.html'">Cancel</button>
+        <button type="submit" class="createbtn">Create</button>
+      </div>
+    </div>
+  </form>
